@@ -3,7 +3,6 @@
 <h2><%= @company["city"] %>, <%= @company["state"] %></h2>
 
 <h3>Contacts</h3>
-
 <ul>
   <% for contact in @contacts %>
     <li>
@@ -27,4 +26,3 @@
     <input type="hidden" name="_method" value="delete">
     <button>Delete Company</button>
   </form>
-<% end %>
